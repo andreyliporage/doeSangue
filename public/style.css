@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+header, main, footer {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 64px 0;    
+    padding: 32px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+main p {
+    margin-bottom: 16px;    
+}
+
+main > button {
+    border: solid 1px #ff4f4f;    
+    background: #ff4f4f;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+main > section {
+    background-color: #ff4f4f;
+    padding: 54px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 42px;
+}
+
+section {
+    display: none;
+}
+
+.form > p {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.form input {
+    padding: 4px;
+    border-radius: 6px;
+    background-color: #ff4f4f;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.form input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.form form > button {    
+    width: 51.5%;
+    padding: 4px;
+    border-radius: 6px;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 36px; 
+}
+
+span {
+    color: red;
+}
+
+main > img {    
+    width: 400px;
+    margin-bottom: 52px;
+}
+
+footer {
+    padding: 8px 0 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(241, 238, 238);
+}
